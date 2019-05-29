@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		ObjectModel
+	</title>
+	<body>
+	<h1 id ="head"> This is a Head 1</h1>
+	<h2 class="intro"> This is a Head 2</h2>
+	<p id="para 1"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<hr>
+	<p id="para 2" > Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<ul>
+		<li>code</li>
+		<li>eat</li>
+		<li>sleep</li>
+	</ul>
+	<script type="text/javascript">
+		var head = document.getElementById("head")
+head.innerhtml="Newhead	"
+		console.log(head)
+		var para_tags=document.getElementsByTagName('p');
+		console.log(para_tags)
+		console.log(para_tags[0])
+		var paragraph =para_tags[0]
+		paragraph.innerHTML="UTSAV";
+		
+		var newclass=document.getElementsByClassName('intro');
+		console.log(newclass)
+		newclass.innerHTML="utsavv"
+		newclass[0].innerHTML="THIS A NEW INTRO"
+		//applying css to html elements
+		//syntax:element.style.background color
+		var paragraph2=document.getElementById("para 2")
+		
+			paragraph2.style.backgroundColor="red";
+
+			</script>
+</head>
+
+
+</body>
+</html>
