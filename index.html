@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<include>
+<head>
+<meta charset="utf-8">
+<meta name="description" content="">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link href="img/favicon/favicon.png" rel="icon">
+<title>MartPlace Documentation</title>
+<link href="http://fonts.googleapis.com/css?family=Raleway:700,300" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/prism.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="wrapper">
+<nav>
+
+    <div class="pull-right">
+    	<a href="http://aazztech.com/support/" target="_blank" class="btn btn-download"><img src="img/support.png" width="25" alt="Download Free Documentation Template" />Support</a>
+    </div>
+
+</nav>
+<header>
+  <div class="container">
+    <h2 class="lone-header"><strong>MartPlcae Documentation</strong></h2>
+  </div>
+</header>
+<section>
+  <div class="container">
+    <ul class="docs-nav">
+      <li><strong>Getting Started</strong></li>
+      <li><a href="#welcome" class="cc-active">Welcome</a></li>
+      <li><a href="#install">Install</a></li>
+      <li><a href="#filesAndDirecotries">Folder Structure</a></li>
+      <li><a href="#html">Html Structure</a></li>
+      <li><a href="#node">Install Node</a></li>
+      <li><a href="#gulp">Gulp</a></li>
+      <li><a href="#nav">Navigation & Logo</a></li>
+      <li><a href="#video">Video</a></li>
+      <li><a href="#google_map">Google Map</a></li>
+      <li><a href="#Credit">Credit</a></li>
+    </ul>
+    <div class="docs-content">
+
+    <div id="welcome" class="section-block">
+      <p class="theme-info">
+      Theme Name: MartPlace - Complete Online Multipurpose Marketplace <br>
+      Author: AazzTech <br>
+      Author: URI: http://aazztech.com/ <br>
+      Created: 06/jan/2017 <br>
+      Version: 1.0.0 <br>
+      License: &copy; AazzTech</p>
+
+      <h3> Welcome</h3>
+      <p>
+        <strong>BIG THANKS </strong> for purchasing this theme, your support is truly appreciated! This document covers the installation and use of this template and often reveals answers to common problems and issues - read this document thoroughly if you are experiencing any difficulties. If you have any questions that are beyond the scope of this document, <strong>Please</strong> feel free to contact with our dedicated <a href="http://aazztech.com/support/">Support</a> team
+      </p>
+    </div> <!--  END section-block -->
+
+    <div class="section-block">
+        <h3>Template Features</h3>
+        <ol>
+          <li>Clean Code</li>
+          <li>HTML5 & CSS3</li>
+          <li>Fully Responsive Design</li>
+          <li>All files are well commented</li>
+          <li>Crossbrowser Compatible with IE10+, Firefox, Safari, Opera, Chrome</li>
+          <li>Extensive Documentation</li>
+          <li>Sass files included </li>
+          <li>Task automation with gulp</li>
+          <li>Beautiful Design</li>
+        </ol>
+    </div> <!-- END features-->
+        
+
+    
+    <div class="section-block" id="install">
+        <h3>Installing Template</h3>
+        <p>
+           After unzip the download pack, you'll find a Template Folder ( martplace ) with all the files. You can view this Template in any browser, you can display or edit the Template without an internet connection.
+        </p>
+        <p>
+          Now open your FTP Client (like Filezilla) and upload the content of the Template on your server root. Once the files are done uploading go to www.yourdomainname.com/index.html
+        </p>
+    </div> <!--  END section-block -->
+
+
+
+
+    <div class="section-block" id="filesAndDirecotries">
+    <h3>Folder Structure</h3>
+    <code>
+    <pre>
+    ├── src
+    │   ├── js
+    │   │   ├── vendor (contains jquery plugin scripts)
+    │   ├── css (contains plugin css)
+    │   ├── fonts/
+    │   ├── imgs/
+    │   ├── sass/
+    |   |   ├── components
+    |   |   ├── general    
+    │
+    ├── .gitignore
+    ├── gulpfile.js
+    ├── package-lock.json
+    ├── README.md
+    </pre>
+    </code>
+    </div>
+
+    <div class="section-block" id="html">
+        <h3>HTML Structure</h3>
+        <p>
+           This Template has a Responsive layout and is based on the Bootstrap Framework. For more information about this visit Bootstrap Scaffolding.
+        </p>
+        <p>
+          All the files and folders are organized appropriately. These files are essential for proper working of the template. You can make changes in the files as shown below in this document but please don't alter the file structure, that is, don't remove or move any files from css, js and images folder unless instructed in this document.
+        </p>
+        <img src="img/1.png" alt="">
+        <p>
+          please change mata tag content name description, author, summary, Classification to improve your SEO :) 
+        </p>
+    </div> <!--  END filesAndDirecotries -->
+
+    <hr>
+    <div class="section-block" id="node">
+      <h3>Installing Node</h3>
+
+        <p>Gulp requires node to run. And it usages npm packages to perform different task,
+          So install node and npm first.Please fllow the guide 
+        </p>
+
+        <strong>1.Installing node</strong>
+        <p>>Go to <a href="https://nodejs.org/en/">https://nodejs.org/en/</a> and download the appropriate version for you OS.</p>
+
+        <strong>2.Installing Gulp</strong>
+        <p>> go to command  and run <code><strong>npm install -g gulp</strong></code> it will install gulp globally</p>
+
+        <strong>3.Getting started</strong>
+        <p>> Now navigate to the martplace folder and run <code><strong>npm install</strong></code>, it will install 
+        all the dependecies</p>
+    </div>
+
+
+    <div class="section-block" id="gulp">
+      <h3>Gulp tasks</h3>
+        <p>Gulp is amazing tools for task automation. It automates time-consuming tiresome for task you. It helps keep the concentration on actual work by 
+          taking care of many redundant boring task such as sass compilation, css compression, js/css injection etc.
+        </p>
+        <p><code><strong>> gulp build</strong></code></p>
+        <p>this command will take the html, css, js, fonts from the <code>src/</code> directory to <code>build/</code> with optimizing the images,
+        cmpiling the sass, minimizing the css and js file. ready to upload</p>
+
+        <p><code><strong>> gulp dist</strong></code></p>
+        <p>this command will take the html, css, js, fonts from the <code>src/</code> directory to <code>dist/</code> with optimizing the images,
+        cmpiling the sass, minimizing the css and js file. Difference between <code>build</code> and <code>dist</code> is on <code>dist</code> command the 
+      css and js files compress into 4 files only. 2 js ile and 2 css file and injected into html files. for better performance</p>
+
+      <p><code><strong>> gulp serve</strong></code></p>
+      <p>gulp serve command is handy during development, cause it takes the <code><strong>index.html </strong> file </code> from <code><strong>src/</strong></code> directory and
+      opens in the browser at <code><strong>localhost:3000/</strong></code></p>
+
+      <p><code><strong>> gulp sass</strong></code></p>
+      <p>The command kind of describe itself, It compiles the sass files into <code><strong>style.css</strong></code></p>
+
+      <p><code><strong>> gulp</strong></code></p>
+      <p><code>Gulp</code> command is equivlent to <code>gulp default</code> it runs the default task that has been assigned to it.
+      In this particular project <code>Gulp</code> serves the project in the browser, watches for sass,css,js,html changes and synces
+    and excutes task associated with it.</p>
+
+
+    <p><code><strong>Important note: </strong></code> For better image optimization, We used <a target="_blank" href="https://tinypng.com/">Tinypng</a>
+    api based <code>gulp-tinypng-compress</code> package. It requires a API key to perform the task. Please the the api key with your own API key
+  like shown in the image below</p>
+  <img src="img/tpg.png" alt="">
+  <p>to get the api key please vist this link <a href="https://tinypng.com/developers">https://tinypng.com/developers</a>. Sign up with you email and get the api key
+  from here <a href="https://tinypng.com/dashboard/developers">https://tinypng.com/dashboard/developers</a></p>
+  <img src="img/apk.png" alt="">
+    </div>
+    <hr>
+    
+
+    <div class="section-block" id="nav">
+        <h3>Update Navigation & Logo</h3>
+        <p>How to change logo</p>
+        <img src="img/4.png" alt="">
+        you can see a class logo inside it put your own image path. you can use text also.
+        <h3>Navigation structure</h3>
+        <img src="img/5.png">
+          Change the navigation according to your content, also you can add or remove according to your needs. Smoothscroll will work automatically. make sure you keep the class scrolling and specific section id<br>
+        </div> <!--  END nav -->
+
+   
+
+    <div class="section-block" id="video">
+        <h3>Update Video</h3>
+        Video structure <br>
+        please provide youtube or vemio video url here.
+        <img src="img/8.png"> <br>
+    </div> <!--  END video -->
+
+
+    <div class="section-block" id="google_map">
+        <h3>Update Your map location</h3>
+        <p>
+          To update your map location please add your map location Longitude and Longitude. to do that go to <code>js > map.js</code>
+          and change the lat lang of with your desired location lat-lang.
+        </p>
+          <img src="img/14.png">
+          <p>
+            and update
+          </p>
+    </div> <!--  END google_map -->
+
+
+
+    <div class="section-block" id="Credit">
+        <h3>Credit</h3>
+        <h3>Fonts</h3>
+        <ol>
+          <li><a href="https://fonts.google.com/specimen/Quicksand">Quicksand</a></li>
+        </ol>
+        <h3>Icons</h3>
+        <ol>
+          <li><a href="http://fontawesome.io/icons/">fontawesome</a></li>
+          <li><a href="https://linearicons.com/free">Linearicns Free</a></li>
+        </ol>
+        <h3>Framework</h3>
+        <ol>
+          <li><a href="http://getbootstrap.com/">Bootstrap</a></li>
+        </ol>
+    </div> <!--  END contact -->
+    <br>
+    <h3>
+    Still Have Question <i style="color:#3e6edf" class="fa fa-smile-o" aria-hidden="true"></i> Don't worry. Tell our dedicated <a href="http://aazztech.com/support/">Support</a> team
+    </h3>
+    <br>
+<footer>
+    <p> &copy; Copyright AazzTech. All Rights Reserved.</p>
+</footer>
+
+</div>
+
+    <!-- SCROLL TO TOP-->
+    <div class="scroll-top">
+        <i class="fa fa-angle-up" aria-hidden="true"></i>
+    </div>
+<script src="js/jquery.min.js"></script>
+<script src="js/prism.js"></script> 
+<script src="js/layout.js"></script> 
+</body>
+</html>
